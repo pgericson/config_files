@@ -189,6 +189,8 @@ map <c-f> :FufFile<Enter>
 " yank line - Copy line
 map <c-c> Y
 
+map <leader>t :FuzzyFinderTextMate<CR>
+
 " Snippets are activated by Shift+Tab
 let g:snippetsEmu_key = "<S-Tab>"
 
