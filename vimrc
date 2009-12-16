@@ -29,6 +29,7 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
   syntax on
   set hlsearch
 endif
+set hlsearch
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
@@ -79,7 +80,7 @@ set expandtab
 set laststatus=2
 
 " \ is the leader character
-let mapleader = "\\"
+let mapleader = "-"
 
 " Edit the README_FOR_APP (makes :R commands work)
 map <Leader>R :e doc/README_FOR_APP<CR>
