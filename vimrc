@@ -8,7 +8,7 @@ set ttyfast
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-
+set number
 set nobackup
 set nowritebackup
 set history=50		" keep 50 lines of command line history
