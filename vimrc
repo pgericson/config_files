@@ -188,8 +188,14 @@ map <Leader>f :FufFile<Enter>
 map <c-o> :FufBuffer<Enter> 
 map <c-t> :FufJumpList<Enter>
 map <c-f> :FufFile<Enter>
+let g:fuzzy_ignore = "*.svn"
+let g:fuzzy_ignore = "*.swp"
+let g:fuzzy_ignore = "*.jpg"
+let g:fuzzy_ignore = "*.gif"
+let g:fuzzy_ignore = "*~"
+let g:fuzzy_ignore = "vendor/*"
 " yank line - Copy line
-map <c-c> Y
+"map <c-c> Y
 
 map <leader>t :FuzzyFinderTextMate<CR>
 
