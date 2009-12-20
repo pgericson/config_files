@@ -80,7 +80,7 @@ set expandtab
 set laststatus=2
 
 " \ is the leader character
-let mapleader = "-"
+let mapleader = "æ"
 
 " Edit the README_FOR_APP (makes :R commands work)
 map <Leader>R :e doc/README_FOR_APP<CR>
@@ -128,7 +128,8 @@ map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 
 " Maps autocomplete to tab
-imap <Tab> <C-N>
+imap ½ <C-N>
+
 
 " Duplicate a selection
 " Visual mode: D
